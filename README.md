@@ -1,10 +1,5 @@
-# mark-fullstack-proj--starter-1
+# demo-fullstack
 
-## Usage:
-
-Instead of cloning this project, click "Use this template".  This will allow you to create a repo on github which has this project's content but which is not a fork of it.
-
-Make sure you create the repo as being owned by your own account not by the WeAreAcademy organisation.
 
 
 ## Install
@@ -28,3 +23,5 @@ This will set the env var LOCAL to true, which will cause the db connection conf
 ## running on heroku
 
 When the project is deployed to heroku, the command in your `Procfile` file will be run.
+
+Heroku will itself supply the env var `DATABASE_URL` and the given server code will connect based on that connection string.
